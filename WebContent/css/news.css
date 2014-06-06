@@ -1,0 +1,137 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+#illustrat{
+	position:relative;
+	float:left;
+	background-image:url(../images/index_ilu.png);
+	background-repeat:no-repeat;
+	width:186px;
+	height:73px;
+	top:40px;
+	left:65px;
+	z-index:2;
+}
+#content1{
+	position:relative;
+	width:auto;
+	height:auto;
+}
+#content2{
+	position:relative;
+	width:880px;
+	height:930px;
+	overflow:hidden;
+}
+#bj{
+	position:relative;
+	left:60px;
+	z-index:0;
+}
+#changebj{
+	position:absolute;
+	z-index:1;
+}
+#patch1{
+	position:relative;
+	width:779px;
+	height:auto;
+	background-color:#fefefe;
+	margin-bottom:100px;
+	margin-left:70px;
+	margin-top:10px;
+}
+#patch1 .b_left{
+	float:left;
+}
+#patch1 .b_right{
+	float:right;
+}
+#patch1 a span.link{
+	position:relative;
+	float:right;
+	right:30px;
+	top:-23px;
+	z-index:1;
+	color:#06C;
+	margin-right:10px;
+}
+#patch1 a span.link:hover{
+	position:relative;
+	float:right;
+	right:30px;
+	top:-23px;
+	z-index:1;
+	color:#009;
+	font-weight:bold;
+	margin-right:10px;
+}
+#boxlist{
+	background-color:#F9F9F9;
+	margin:0 auto;
+	padding:0;
+	width:auto;
+	height:655px;
+	font-size:12px;
+	margin-top:20px;
+	overflow:hidden;
+}
+
+#boxlist ol{
+	color:#333;
+	margin-left:40px;
+}
+#boxlist ol li{
+	position:relative;
+	list-style-type:decimal;
+	line-height:35px;
+	border-bottom:1px #e6e6e6 solid;
+}
+#boxlist ol li span{
+	float:right;
+	margin-right:15px;
+	/*position:absolute;
+	right:0px;*/
+}
+#boxlist a{
+	color:#333;
+	outline:none;
+	text-decoration:none;
+}
+#boxlist a:hover,#boxlist li:hover{
+	color:#2C70A3;
+}
+
+#boxtest{
+	background-color:#fafafa;
+	width:auto;
+	height:655px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#333333;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+#boxtest h1{
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+#boxtest span{
+	font-size:12px;
+	color:#666;
+	margin-right:20px;
+}
+#boxtest p{
+	text-indent:2em;
+	letter-spacing:1px;
+	line-height:25px;;;
+	margin-top:30px;
+	margin-left:45px;
+	width:690px;
+	text-align:left;
+	font-size:14px;
+}

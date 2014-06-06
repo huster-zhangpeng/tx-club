@@ -1,0 +1,75 @@
+
+<web-app xmlns="http://java.sun.come/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                       
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0" metadata-complete="true">
+	<description>
+		Tencent's web site
+  	</description>
+	<display-name>Tencent Club</display-name>
+
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			/WEB-INF/applicationContext*.xml,classpath*:applicationContext.xml
+		</param-value>
+	</context-param>
+
+	<!-- 数据源 数据连接池 -->
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>jdbc/databaseWeb</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+
+	<init-param>
+		<param-name>log4j-init-file</param-name>
+		<param-value>WEB-INF/log4j.properties</param-value>
+	</init-param>
+	<!-- strust2核心Filter -->
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>
+			org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+		</filter-class>
+		<init-param>
+			<param-name>actionPackages</param-name>
+			<param-value>org.apache.struts2.showcase.person</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>
+	<filter>
+		<filter-name>hibernateFilter</filter-name>
+		<filter-class>
+			org.springframework.orm.hibernate3.support.OpenSessionInViewFilter
+		</filter-class>
+		<init-param>
+			<param-name>singleSession</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>hibernateFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> 
+	
+	<!--spring 监听器 -->
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	<!--防止内存泄漏 -->
+	<listener>
+		<listener-class>
+			org.springframework.web.util.IntrospectorCleanupListener
+		</listener-class>
+	</listener>
+</web-app>

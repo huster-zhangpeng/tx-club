@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>华中科技大学腾讯创新俱乐部——作品展示</title>
+<link href="css/reset.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/share.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/galledy.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/galledy_exp.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/tab.css" type="text/css" rel="stylesheet" media="screen"/>
+<script>
+function woaicssq(num){
+for(var id = 1;id<=2;id++ )
+{
+var MrJin="woaicss_con" +id;
+if(id==num)
+document.getElementById(MrJin).style.display="block";
+else
+document.getElementById(MrJin).style.display="none";
+}
+if(num==1){
+document.getElementById("tabmain1").className="tabpic1_hover";
+document.getElementById("tabmain2").className="tabpic2";
+}
+if(num==2){
+document.getElementById("tabmain1").className="tabpic1";
+document.getElementById("tabmain2").className="tabpic2_hover";
+}
+}
+</script>
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+</head>
+<body>
+<div id="container">
+  <div id="left"></div>
+  <div id="right"> </div>
+  <div id="middle">
+    <div id="header">
+      <div id="tabs">
+        <div class="nav">
+          <ul>
+            <li class="title_home"><a href="index.html"></a></li>
+            <li class="title_view"><a href="summary.html"></a></li>
+            <li class="title_galledy"><a href="galledy.html"></a></li>
+            <li class="title_department"><a href="department.html"></a></li>
+            <li class="title_contact"><a href="contact.html"></a></li>
+          </ul>
+        </div>
+        <!-- end of nav -->
+      </div>
+      <!-- end of tabs -->
+      <div id="illustrat"></div>
+    </div>
+    <!-- end of header -->
+    <div id="content1"> <a href="#"><img id="changebj" src="images/changebj.png"/></a> <img id="bj" src="images/galledy/bj.jpg"/> </div>
+    <!-- end of content1 -->
+    <div id="content2">
+          <div class="woaicss">
+                <ul class="woaicss_title woaicss_title_bg1" id="woaicsstitle">
+                  <li><a href="javascript:void(0)" onclick="javascript:woaicssq(1)"><div class="tabpic1_hover" id="tabmain1"></div></a></li>
+                  <li><a href="javascript:void(0)" onclick="javascript:woaicssq(2)"><div class="tabpic2" id="tabmain2"></div></a></li>
+                </ul>
+                <div style="clear:both;"></div>
+                <div class="woaicss_con" id="woaicss_con1" style="display:block;">
+                	<div id="pic_exp">
+                        <h1 id="project_title">团购网</h1>
+                        <a href="#" id="left_arrow" class="id_0"><div class="left_arrow"></div></a>
+                    <a href="#" id="rigth_arrow" class="id_2"><div class="right_arrow"></div></a>
+                        <div class="arrow"><a href="galledy.html">返回</a></div> 
+                         <img id="project_image" class="workpic_exp" src="images/works/web/01.jpg"/>                                                
+                        <div class="textbox">
+                            <h2>参与成员：<span id="project_member">詹姆斯、韦德、波什</span></h2>
+                            <h2>技术难度：<span id="project_difficulty">*****</span></h2>
+                            <h2>项目简介：<span id="project_describe">在回答有关美韩两国拟再多次军演的提问时，姜瑜说，中方已就此多次表明立场。希望有关各方认真对待中方关切。当前形势高度复杂敏感，有关问题如果处理不当</span></h2>
+                            <h2>创意来源：<span id="project_source">外交部发言人姜瑜9日主持例行记者会，回答了中外。</span></h2>
+                        </div>                      	
+                    </div>
+                </div>     	<!-- end of 第一部分 -->           
+                <div class="woaicss_con" id="woaicss_con2" style="display:block;">
+					<div id="pic_exp">
+                        <h1>芭蕉扇</h1>
+                        <a href="#"><div class="left_arrow"></div></a>
+                        <a href="#"><div class="right_arrow"></div></a>
+                        <div class="arrow"><a href="galledy.html">返回</a></div> 
+                        <img class="workpic_exp" src="images/works/phone/01.jpg"/>                   
+                        <div class="textbox">
+                            <h2>参与成员：<span>孙悟空、沙和尚、勇哥</span></h2>
+                            <h2>技术难度：*****</h2>
+                            <h2>项目简介：<span>在回答有关美韩两国拟再多次军演的提问时，姜瑜说，中方已就此多次表明立场。希望有关各方认真对待中方关切。当前形势高度复杂敏感，有关问题如果处理不当</span></h2>
+                            <h2>创意来源：<span>外交部发言人姜瑜9日主持例行记者会，回答了中外。</span></h2>
+                        </div>
+                    </div>
+                </div>		<!-- end of 第二部分 -->
+          </div>
+    </div>
+    <!-- end of content2 -->
+    <div id="footer"><span>copyright © 2009-2010 huazhongkejidaxue.tengxunjulebu.cn.all rights reserved support by gumeipost.com</span	> </div>
+  </div>
+  <!-- end of middle -->
+</div>
+</body>
+</html>

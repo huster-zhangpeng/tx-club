@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1279/trunk/club/src/com/tencent/dao/impl
+END
+ActivityDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1180/trunk/club/src/com/tencent/dao/impl/ActivityDAOImpl.java
+END
+UserDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1183/trunk/club/src/com/tencent/dao/impl/UserDAOImpl.java
+END
+DAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1279/trunk/club/src/com/tencent/dao/impl/DAOImpl.java
+END
+TaskDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1183/trunk/club/src/com/tencent/dao/impl/TaskDAOImpl.java
+END
+BlogDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1182/trunk/club/src/com/tencent/dao/impl/BlogDAOImpl.java
+END
+ContactUsDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1239/trunk/club/src/com/tencent/dao/impl/ContactUsDAOImpl.java
+END
+MessageDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1182/trunk/club/src/com/tencent/dao/impl/MessageDAOImpl.java
+END
+TeamDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1183/trunk/club/src/com/tencent/dao/impl/TeamDAOImpl.java
+END
+ProjectDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1183/trunk/club/src/com/tencent/dao/impl/ProjectDAOImpl.java
+END
+ResourceDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1186/trunk/club/src/com/tencent/dao/impl/ResourceDAOImpl.java
+END

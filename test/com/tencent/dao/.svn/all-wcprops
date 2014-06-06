@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1275/trunk/club/test/com/tencent/dao
+END
+ActivityDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1239/trunk/club/test/com/tencent/dao/ActivityDAOImplTest.java
+END
+UserDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1199/trunk/club/test/com/tencent/dao/UserDAOImplTest.java
+END
+TaskDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1239/trunk/club/test/com/tencent/dao/TaskDAOImplTest.java
+END
+ContactUsDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1239/trunk/club/test/com/tencent/dao/ContactUsDAOImplTest.java
+END
+BlogDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1239/trunk/club/test/com/tencent/dao/BlogDAOImplTest.java
+END
+MessageDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1239/trunk/club/test/com/tencent/dao/MessageDAOImplTest.java
+END
+TeamDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1199/trunk/club/test/com/tencent/dao/TeamDAOImplTest.java
+END
+ProjectDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1275/trunk/club/test/com/tencent/dao/ProjectDAOImplTest.java
+END
+ResourceDAOImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1239/trunk/club/test/com/tencent/dao/ResourceDAOImplTest.java
+END

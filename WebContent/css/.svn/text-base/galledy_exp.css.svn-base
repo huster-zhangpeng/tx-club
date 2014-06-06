@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+#pic_exp{
+	height:810px;
+	background:#fff;
+	position:relative;
+	width:780px;
+	overflow:hidden;
+	text-align:center;
+}
+#pic_exp img.workpic_exp{
+	position:relative;
+	width:auto;
+	height:500px;
+}
+#pic_exp h1{
+	position:relative;
+	font-weight:bold;
+	margin:18px auto;
+}
+.left_arrow{
+	float:left;
+	width:47px;
+	height:75px;
+	margin-top:220px;
+	background: transparent url(../images/left_right.png) no-repeat -47px 0px;
+}
+.left_arrow:hover{
+	float:left;
+	width:47px;
+	height:75px;
+	margin-top:220px;
+	background: transparent url(../images/left_right.png) no-repeat 0px 0px;
+}
+.right_arrow{
+	float:right;
+	width:47px;
+	height:75px;
+	margin-top:220px;
+	background: transparent url(../images/left_right.png) no-repeat -141px 0px;
+}
+.right_arrow:hover{
+	float:right;
+	width:47px;
+	height:75px;
+	margin-top:220px;
+	background: transparent url(../images/left_right.png) no-repeat -94px 0px;
+}
+.textbox{
+	width:480px;
+	padding:10px;
+	margin:20px  auto 0;
+	text-align:left;
+	line-height:20px;
+}
+#pic_exp.textbox h2{
+	width:410px;
+	display:block;
+	color:#262728;
+	float:left;
+}
+.textbox h2 span{
+	display:inline-table;
+	color:#262728;
+	width:420px;
+	right:0;
+}
+.arrow{
+	float:right;
+	clear:both;
+	margin-top:350px;
+	background-image:url(../images/galledy/arrow.png);
+	background-repeat:no-repeat;
+	width:70px;
+	height:17px;
+}
+.arrow a{
+	color:#666666;
+	text-decoration:underline;
+}
+	

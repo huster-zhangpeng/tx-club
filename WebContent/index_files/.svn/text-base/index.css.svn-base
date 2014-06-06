@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+#illustrat{
+	position:relative;
+	float:left;
+	background-image:url(images/index_ilu.png);
+	background-repeat:no-repeat;
+	width:186px;
+	height:73px;
+	top:42px;
+	left:95px;
+}
+	
+#content1{
+	position:relative;
+	width:880px;
+	height:auto;
+	padding:0;
+	left:26px;
+}
+#content2{
+	position:relative;
+	width:906px;
+	height:auto;
+	padding:0;
+	background-color:#fff;
+}
+#content3{
+	float:left;
+	position:relative;
+	width:542px;
+	height:auto;
+	padding:0;
+	margin-left:61px;
+	background-color:#fff;
+}
+#content4{
+	position:relative;
+	float:right;
+	width:223px;
+	height:auto;
+	margin-right:60px;
+	padding:0;
+	background-color:#fff;
+}
+#content5{
+	position:relative;
+	float:left;
+	background:#fff;
+	width:890px;
+	height:auto;
+	bottom:20px;
+}
+#patch1{
+	position:relative;
+	width:784px;
+	margin:0 auto;
+	height:168px;
+}
+#patch_a{
+	position:relative;
+	width:542px;
+	height:250px;
+	background-color:#f6f6f6;
+	overflow:hidden;
+}
+#patch_b{
+	position:relative;
+	width:542px;
+	height:250px;
+	background-color:#f6f6f6;
+	margin-bottom:20px;
+	margin-top:10px;
+	overflow:hidden;
+}
+#patch_a h3,#patch_b h3{
+	position:absolute;
+	float:right;
+	right:27px;
+	top:15px;
+	z-index:1;
+	color:#06C;
+}
+#patch_a h3:hover,#patch_b h3:hover{
+	position:absolute;
+	float:right;
+	right:27px;
+	top:15px;
+	z-index:1;
+	color:#009;
+	font-weight:bold;
+}
+.setmenu{
+	position:relative;
+	margin-top:2px;
+	left:85px;
+}
+#patch3{
+	position:relative;
+	width:223px;
+	float:right;
+	height:480px;
+	background-color:#f6f6f6;
+}
+.border_t{
+	background-image:url(images/border_up.png);
+	background-repeat:no-repeat;
+	width:784px;
+	height:23px;
+}
+.border_l{
+	position:relative;
+	float:left;
+	background-image:url(images/border_lr.png);
+	background-repeat:no-repeat;
+	width:5px;
+	height:87px;
+}
+.border_r{
+	position:relative;
+	float:right;
+	margin-right:-1px;
+	background-image:url(images/border_lr.png);
+	background-repeat:no-repeat;
+	width:5px;
+	height:87px;
+}
+.ban1{
+	position:relative;
+	width:243px;
+	float:left;
+	height:140px;
+	background-color:#f9f9f9;
+	margin-left:27px;
+}
+.ban2{
+	position:relative;
+	width:179px;
+	float:left;
+	height:140px;
+	background-color:#f9f9f9;
+	margin-left:27px;
+}
+.ban1 p,.ban2 p{
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#333333;
+	padding:0 5px;
+}
+
+/*ban制作，可能要share*/
+#patch_a .b_lift,#patch_b .b_lift{
+	float:left;
+}
+#patch_a .b_right,#patch_b .b_right{
+	float:right;
+}
+
+#boxlist{
+	background-color:#F9F9F9;
+	margin:0 auto;
+	padding:0;
+	width:520px;
+	height:250px;
+	font-family:"微软雅黑";
+	font-size:12px;
+}
+#boxtest{
+	background-color:#fafafa;
+	padding:0;
+	width:221px;
+	height:468px;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#333333;
+	border:1px #d5d5d5 solid;
+	border-top:none;
+}
+#boxlist ol{
+	color:#333;
+	margin-left:40px;
+}
+#boxlist ol li{
+	position:relative;
+	list-style-type:decimal;
+	line-height:35px;
+	border-bottom:1px #e6e6e6 solid;
+}
+#boxlist ol li span{
+	float:right;
+	margin-right:15px;
+	/*position:absolute;
+	right:0px;*/
+}
+#boxlist a{
+	color:#333;
+	outline:none;
+	text-decoration:none;
+}
+#boxlist a:hover,#boxlist li:hover{
+	color:#2C70A3;
+}
+
+.ban3 #boxtest #show img{
+	float:left;
+}
+.ban3 h4{
+	color:#7db8c6;
+	font-size:12px;
+	font-weight:bold;
+	font-family:"微软雅黑";
+}
+.ban3 p{
+	color:#888888;
+	font-size:12px;
+	font-family:"宋体";
+}
+#show{
+	float:left;
+}
+#show img{
+	margin:12px 12px 0 12px;
+}
+#show h4{
+	margin-top:12px;
+	color:#7bbdbc;
+}
+#show p{
+	margin:0px 6px 0px 0px;
+	height:80px;
+	overflow:hidden;
+}
+#show span{
+	float:right;
+	margin-right:15px;
+}
+#show a{
+	color:#888888;
+	font-weight:bold;
+}
+#show a:hover{
+	color:#2C70A3;
+	font-weight:bold;
+}
+#show2 img{
+	border:1px #d5d5d5 solid;
+	margin:8px 11px 3px 15px;
+	padding:2px;
+}
+#show3{
+	width:800px;
+	margin:0 auto;
+	height:53px;
+	border-bottom: solid #d3d3d3 1px;
+	margin-top:30px;
+	border-top:solid #d3d3d3 1px;
+	padding:10px 0 10px 0;
+}
+#show3 img{
+	border:none;
+	margin-left:50px;
+	padding:0;
+}
+#show3 span{
+	font-family:"微软雅黑";
+	font-size:13px;
+	font-weight:bold;
+	color:#646464;
+	margin-left:100px;
+}
+#showpic{
+	margin-left:5px;
+	margin-top:10px;
+}

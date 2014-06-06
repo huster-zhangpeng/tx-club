@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.woaicss {
+	position:relative;
+	width:780px;
+	height:760px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#FFF;
+}
+.woaicss_title {
+	width:780px;
+	height:33px;
+}
+.woaicss_title li {
+	display:block;
+	float:left;
+	display:inline;
+}
+.woaicss_title li a {
+	display:block;
+	width:91px;
+	heigth:33px;
+}
+.woaicss_title li a:hover {
+	color:#06f;
+	text-decoration:underline;
+}
+.woaicss_con {
+	border-top:2px solid #f6f1d8;
+	display:block;
+	width:780px;
+	height:auto;
+	background:#fff;
+}
+.tabpic1{
+	position:relative;
+	float:left;
+	background-image:url(../images/galledy/tab_web.jpg);
+	background-repeat:no-repeat;
+	width:91px;
+	height:33px;
+}
+.tabpic1_hover{
+	position:relative;
+	float:left;
+	background-image:url(../images/galledy/tab_web_hover.jpg);
+	background-repeat:no-repeat;
+	width:91px;
+	height:33px;
+}
+.tabpic2{
+	position:relative;
+	float:left;
+	background-image:url(../images/galledy/tab_phone.jpg);
+	background-repeat:no-repeat;
+	width:91px;
+	height:33px;
+}
+.tabpic2_hover{
+	position:relative;
+	float:left;
+	background-image:url(../images/galledy/tab_phone_hover.jpg);
+	background-repeat:no-repeat;
+	width:91px;
+	height:33px;
+}

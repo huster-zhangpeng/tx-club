@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*制作导航条*/
+#tabs .nav{
+	position:relative;
+	margin:0 auto;	
+	width:870px;
+	padding-top:127px;
+	height:35px;			
+}/*高度防止1024*768偏移*/
+#tabs ul {
+margin: 0;
+padding: 0 0 0 20px;
+width: 950px;
+float:left; 
+}
+#tabs li { 
+display: inline;
+margin: 0;
+}
+#tabs li a{
+	outline:none;
+	blr:expression(this.onFocus=this.blur()); 
+}/*firefox去除虚线框*/
+
+
+/*导航条图片部分 home view gallery contact department分别表示：首页 概况 作品 成员 联系*/
+#tabs li.title_home a {
+text-decoration:none;
+background: transparent url(../images/nav.png) no-repeat;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_home a:hover { 
+background: transparent url(../images/nav.png) no-repeat -106px 0px; 
+}
+
+#tabs li.title_view a {
+text-decoration:none;
+background: transparent url(../images/nav.png) no-repeat 0px -105px;
+float: left; 
+height: 35px;
+width:104px;
+margin:0 18px 0 0;
+padding: 3px 8px 0 0;
+}/*为了减小图片的大小，制作图片时缩减了图标之间距离。这里用右margin 18px来增大距离。*/
+
+#tabs li.title_view a:hover { 
+background: transparent url(../images/nav.png) no-repeat -106px -105px; 
+}
+
+#tabs li.title_galledy a {
+text-decoration:none;
+background: transparent url(../images/nav.png) no-repeat 0px -35px;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_galledy a:hover { 
+background: transparent url(../images/nav.png) no-repeat -106px -35px; 
+}
+
+#tabs li.title_department a {
+text-decoration:none;
+background: transparent url(../images/nav.png) no-repeat 0px -70px;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_department a:hover { 
+background: transparent url(../images/nav.png) no-re 
+}
+
+#tabs li.title_contact a {
+text-decoration:none;
+background: transparent url(../images/nav.png) no-repeat 0px -140px;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_contact a:hover { 
+background: transparent url(../images/nav.png) no-repeat -106px -140px; 
+}
+/*end 导航条*/	

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/reset.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/share.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/summary.css" type="text/css" rel="stylesheet" media="screen"/>
+<title>华中科技大学腾讯创新俱乐部——俱乐部概况</title>
+</head>
+
+<body>
+   <div id="container">
+      <div id="left"></div>
+      <div id="right"> </div>
+      <div id="middle">
+            <div id="header">
+              <div id="tabs">
+                <div class="nav">
+                  <ul>
+                    <li class="title_home"><a href="index"></a></li>
+                    <li class="title_view"><a href="summary.html"></a></li>
+                    <li class="title_galledy"><a href="galledy"></a></li>
+                    <li class="title_department"><a href="department"></a></li>
+                    <li class="title_contact"><a href="showContact"></a></li>
+                  </ul>
+                </div>
+                <!-- end of nav -->
+              </div>
+              <!-- end of tabs -->
+              <div id="illustrat"></div>
+            </div>
+            <!-- end of header -->
+            <div id="content1">       	
+            	<a href="#"><img id="changebj" src="images/changebj.png"/></a>
+                <img id="bj" src="images/summary/bj.jpg"/>
+            </div><!-- end of content1 -->
+            <div id="content2">
+                <div id="patch1">
+                	<img class="title_pic" src="images/summary/department.jpg"/>
+                    <img  class="b_left" src="images/summary/border_sum_big.jpg"/>
+                    <img  class="b_right" src="images/summary/border_sum_big.jpg"/>
+                    <img src="images/summary/chart.jpg"/>                    
+              	</div>
+              <!-- end of patch1 -->
+              	<div id="patch2">
+                	<img class="title_pic" src="images/summary/introduction.jpg"/>
+                    <img  class="b_left" src="images/summary/border_sum_small.jpg"/>
+                    <img  class="b_right" src="images/summary/border_sum_small.jpg"/>   
+                    <img class="showpic" src="images/summary/show1.jpg"/>
+                    <div class="text">
+                    	<p>华中科技大学腾讯创新俱乐部是由华中科技大学和腾讯科技（深圳）有限公司于2007年4月合作创办的以项目为核心的创新实践型高校学生社团，由华中科技大学计算机学院直接领导。俱乐部目前共有成员73名，其中研究生13名本科生60名。2009年度俱乐部成员发表论文一篇，申请到国家创新基金3项在全国13个腾讯创新俱乐部评比中获全国2009年度“最佳腾讯创新俱乐部”及“最佳技术俱乐部”称号。</p>
+                    </div>             
+              	</div>
+              <!-- end of patch2 -->
+              	<div id="patch2">
+                	<img  class="title_pic" src="images/summary/purpose.jpg"/>
+                    <img  class="b_left" src="images/summary/border_sum_small.jpg"/>
+                    <img  class="b_right" src="images/summary/border_sum_small.jpg"/>   
+                    <img class="showpic" src="images/summary/show2.jpg"/>
+                    <div class="text">
+                    	<p>华中科技大学腾讯创新俱乐部是由华中科技大学和腾讯科技（深圳）有限公司合作 创办的以技术为核心的创新实践型高校学生社团，由华中科技大学计算机学院直接 领导。<br/><br/>以培养技术扎实、视野宽阔、具有良好团队合作精神的人才为目标，以新颖的创意和专业的技术创造价值、服务社会</p>
+                    </div>             
+              	</div>
+              <!-- end of patch2 -->
+            </div><!-- end of content1 -->
+            <div id="footer"><span>copyright © 2009-2010 huazhongkejidaxue.tengxunjulebu.cn.all rights reserved support by gumeipost.com</span	> </div>
+       </div>
+  <!-- end of middle -->
+	</div>
+</body>
+</html>

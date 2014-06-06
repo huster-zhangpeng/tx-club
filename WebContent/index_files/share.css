@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	position:relative;
+	width:1280px;
+	height:1512px;
+	background:#fff;
+}
+#left{
+	position:absolute;
+	background-image:url(images/left.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	left:0;
+	width:196px;
+	height:1512px;
+}
+#right{
+	position:absolute;
+	background-image:url(images/right.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	right:0;
+	width:178px;
+	height:1512px;
+
+}
+#middle{
+	position:absolute;
+	width:906px;
+	height:1512px;
+	top:0;
+	margin-left:196px;
+}
+
+#header{
+	position:relative;
+	background-image:url(images/head.jpg);
+	background-repeat:no-repeat;
+	width:906px;
+	height:255px;
+	top:0;
+	z-index:2;
+}
+#footer{
+	position:absolute;
+	background-image:url(images/foot.jpg);
+	width:906px;
+	height:120px;
+	text-align:center;
+	clear:both;
+	bottom:0;
+}
+#footer span{
+	font:"微软雅黑";
+	font-size:11px;
+	color:#646464;
+	line-height:40px;
+}
+.title_pic{
+	margin-bottom:-4px;
+}
+/*ie下title图片下边距解析不同*/
+
+
+/*制作导航条*/
+#tabs .nav{
+	position:relative;
+	margin:0 auto;	
+	width:870px;
+	padding-top:127px;
+	height:35px;			
+}/*高度防止1024*768偏移*/
+#tabs ul {
+margin: 0;
+padding: 0 0 0 20px;
+width: 950px;
+float:left; 
+}
+#tabs li { 
+display: inline;
+margin: 0;
+}
+
+/*导航条图片部分 home view gallery contact department分别表示：首页 概况 作品 成员 联系*/
+#tabs li.title_home a {
+text-decoration:none;
+background: transparent url(images/nav.png) no-repeat;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_home a:hover { 
+background: transparent url(images/nav.png) no-repeat -106px 0px; 
+}
+
+#tabs li.title_view a {
+text-decoration:none;
+background: transparent url(images/nav.png) no-repeat 0px -105px;
+float: left; 
+height: 35px;
+width:104px;
+margin:0 18px 0 0;
+padding: 3px 8px 0 0;
+}/*为了减小图片的大小，制作图片时缩减了图标之间距离。这里用右margin 18px来增大距离。*/
+
+#tabs li.title_view a:hover { 
+background: transparent url(images/nav.png) no-repeat -106px -105px; 
+}
+
+#tabs li.title_galledy a {
+text-decoration:none;
+background: transparent url(images/nav.png) no-repeat 0px -35px;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_galledy a:hover { 
+background: transparent url(images/nav.png) no-repeat -106px -35px; 
+}
+
+#tabs li.title_department a {
+text-decoration:none;
+background: transparent url(images/nav.png) no-repeat 0px -70px;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_department a:hover { 
+background: transparent url(images/nav.png) no-repeat -106px -70px; 
+}
+
+#tabs li.title_contact a {
+text-decoration:none;
+background: transparent url(images/nav.png) no-repeat 0px -140px;
+float: left; 
+height: 35px;
+width:106px;
+margin:0;
+padding: 3px 8px 0 0;
+}
+
+#tabs li.title_contact a:hover { 
+background: transparent url(images/nav.png) no-repeat -106px -140px; 
+}
+/*end 导航条*/	
+
+/*star menu*/
+#menu1,#menu2{
+	position:relative;
+	float:right;
+	width:auto;
+	margin-right:34px;
+}
+#menu1 ul,#menu2 ul {
+	margin: 0;
+	padding:0;
+	width:auto;
+	float:right;
+}
+#menu1 li ,#menu2 li{ 
+display: inline;
+}
+#menu1 li.back a ,#menu2 li.back a{
+	background: transparent url(images/back.png) no-repeat;
+	float:left; 
+	height:21px;
+	width:19px;
+	margin-right:12px;
+}
+#menu1 li.back a:hover ,#menu2 li.back a:hover{
+	background: transparent url(images/back_hover.png) no-repeat;
+	float:left; 
+	height:21px;
+	width:19px;
+	margin-right:12px;
+}
+#menu1 li.block a,#menu2 li.block a{
+	background: transparent url(images/block.png) no-repeat;
+	color:#666;
+	line-height:20px;
+	padding-left:7px;
+	float:left;
+	width:22px;
+	height:22px;
+	margin:0 2px;
+}
+#menu1 li.block a:hover,#menu2 li.block a:hover{
+	background: transparent url(images/block_hover.png) no-repeat;
+	color:#666;
+	line-height:20px;
+	padding-left:7px;
+	float:left;
+	width:22px;
+	height:22px;
+	margin:0 2px;
+}
+#menu1 li.forward a,#menu2 li.forward a{
+	background: transparent url(images/forward.png) no-repeat;
+	float:left;
+	width:19px;
+	height:21px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#menu1 li.forward a:hover,#menu2 li.forward a:hover{
+	background: transparent url(images/forward_hover.png) no-repeat;
+	float:left;
+	width:19px;
+	height:21px;
+	margin-left:10px;
+	margin-right:10px;
+}
+/*end of menu*/

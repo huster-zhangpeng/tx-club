@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1275/trunk/club/src/com/tencent/model
+END
+BaseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1192/trunk/club/src/com/tencent/model/BaseBean.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1184/trunk/club/src/com/tencent/model/Task.java
+END
+ContactUs.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1254/trunk/club/src/com/tencent/model/ContactUs.java
+END
+Blog.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1189/trunk/club/src/com/tencent/model/Blog.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1182/trunk/club/src/com/tencent/model/Message.java
+END
+Project.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1275/trunk/club/src/com/tencent/model/Project.java
+END
+Team.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1272/trunk/club/src/com/tencent/model/Team.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1183/trunk/club/src/com/tencent/model/Resource.java
+END
+Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1206/trunk/club/src/com/tencent/model/Activity.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1266/trunk/club/src/com/tencent/model/User.java
+END

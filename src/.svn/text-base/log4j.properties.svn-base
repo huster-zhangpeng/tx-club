@@ -1,7 +1,0 @@
-log4j.rootLogger=debug,stdout
-log4j.appender.stdout=org.apache.log4j.ConsoleAppender
-log4j.appender.stdout.Target=System.out
-#2.2定义输出布局
-log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
-#2.3定义输出样式
-log4j.appender.stdout.layout.ConversionPattern=%-d{yyyy-MM-dd HH:mm:ss, SSS}%p %rs %l - %m%n  
